@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		B706792F2DE694DC00D3622E /* SsetterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SsetterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B706792F2DE694DC00D3622E /* SsetterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SsetterApp.app; path = "/Users/anonymous/Desktop/office/SsetterApp/build/Debug-iphoneos/SsetterApp.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				B70679312DE694DC00D3622E /* SsetterApp */,
-				B70679302DE694DC00D3622E /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		B70679302DE694DC00D3622E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B706792F2DE694DC00D3622E /* SsetterApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +86,7 @@
 			mainGroup = B70679262DE694DC00D3622E;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = B70679302DE694DC00D3622E /* Products */;
+			productRefGroup = B70679262DE694DC00D3622E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
