@@ -24,3 +24,9 @@
 - Google, tiktok 로그인 우회
 - token 정보 webview 전달
 - ...
+
+
+## 아이콘 변경 (아래 사이트 참조, 추후 아이콘 변경 예정)
+
+- https://ios-development.tistory.com/876
+- https://www.appicon.co/

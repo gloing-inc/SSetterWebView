@@ -6,13 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		B7C878482DE7DF290093CE36 /* readme.readme in Resources */ = {isa = PBXBuildFile; fileRef = B7C878472DE7DF210093CE36 /* readme.readme */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		B7C878372DE7DC9E0093CE36 /* SsetterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SsetterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7C878472DE7DF210093CE36 /* readme.readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.readme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -52,7 +47,6 @@
 			children = (
 				B70679312DE694DC00D3622E /* SsetterApp */,
 				B7C878372DE7DC9E0093CE36 /* SsetterApp.app */,
-				B7C878472DE7DF210093CE36 /* readme.readme */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,7 +114,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7C878482DE7DF290093CE36 /* readme.readme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
