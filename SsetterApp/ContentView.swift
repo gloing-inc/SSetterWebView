@@ -6,14 +6,30 @@
 //
 
 import SwiftUI
+import CoreLocation
+import UserNotifications
 
 struct ContentView: View {
+    @StateObject private var locationManager = LocationManager()
+
     var body: some View {
         WebView(url: URL(string: "https://ssetter.com")!)
-            .ignoresSafeArea(.keyboard) // 키보드만 무시
+            .ignoresSafeArea(.keyboard)
+            .onAppear {
+                locationManager.requestPermission()
+                requestNotificationPermission()
+            }
     }
-}
 
-#Preview {
-    ContentView()
+    private func requestNotificationPermission() {
+        UNUserNotificationCenter.current().requestAuthorization(
+            options: [.alert, .sound, .badge]
+        ) { granted, error in
+            if let error = error {
+                print("🔴 알림 권한 요청 실패: \(error)")
+            } else {
+                print("🔔 알림 권한 허용 여부: \(granted)")
+            }
+        }
+    }
 }
