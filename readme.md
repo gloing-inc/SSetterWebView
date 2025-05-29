@@ -30,3 +30,9 @@
 
 - https://ios-development.tistory.com/876
 - https://www.appicon.co/
+
+
+## 스플레쉬 이미지 
+
+- info.list 추가 (key) UILaunchStoryboardName / (String) LaunchScreen
+
