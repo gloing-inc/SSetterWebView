@@ -17,7 +17,7 @@ var body: some View {
         Color.black // 🔲 원하는 배경색 지정
             .ignoresSafeArea() // ✅ 노치 포함 전체 화면을 검정으로 채움
 
-        WebView(url: URL(string: "https://ssetter.com")!)
+        WebView(url: URL(string: "https://ssetter.ngrok.app")!)
             .ignoresSafeArea(.keyboard) // ✅ 키보드 시 safe area 무시
     }
     .onAppear {

@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct SsetterAppApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
         WindowGroup {
             SplashView()
